@@ -49,9 +49,6 @@ export default function LazeImage({
             onLoadEnd={handleAnimate}
           />
         }
-
-
-
-        </Small>
+    </Small>
   );
 }

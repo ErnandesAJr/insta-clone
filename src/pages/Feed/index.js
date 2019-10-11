@@ -15,12 +15,6 @@ export default function Feed() {
   const [refreshing, setRefreshing] = useState(false);
   const [viewable, setViewable] = useState([]);
 
-
-
-
-
-
-
   async function loadPage(pageNumber = page, shouldRefresh = false) {
     
     if(total && pageNumber > total) return;
@@ -106,7 +100,6 @@ export default function Feed() {
             
             <Description>
               <Name>{item.author.name}</Name> {item.description}
-
             </Description>
 
           </Post>
