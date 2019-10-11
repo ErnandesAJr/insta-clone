@@ -1,0 +1,1 @@
+json-server serve.json -d 1000 -w
